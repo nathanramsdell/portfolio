@@ -11,12 +11,12 @@ import Contactform from '../components/Contactform'
 
 export default function Home() {
   return (
-    <div className="custom-container">
+    <div className="custom-container ">
     <Head>
       <title>NaRa</title>
     </Head>
     
-    <div className="flex justify-center section-margin-bottom">
+    <div className="flex justify-center section-margin-bottom mt-[100px]">
       <Hero />
     </div>
     <div className="section-margin-bottom">

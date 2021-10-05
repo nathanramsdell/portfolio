@@ -1,14 +1,32 @@
 import Image from 'next/image'
 function Hero() {
     return (
-        <div class="">
-        <div className="grid grid-cols-2 ">
+        <div class="relative">
+        <div className="grid lg:grid-cols-2 ">
             {/* Left */}
-            <div className="place-self-center">
+            <div className="place-self-center relative">
                 <div className="">
                     <h1 className=" text-5xl font-bold">I'm Nathan, a <span className="text-purple-500">Digital</span><br></br>Product Designer</h1>
                     <p className="font-thin mt-3">My mission is to help your business grow through my conversion-focused branding, design, marketing, and communication expertise.</p>
                     <button className="py-2 px-6 bg-purple-500 text-white mt-4 rounded-full"><a href="#about">Discover my work</a></button>
+                </div>
+                <div className="large-bubble">
+                <Image src="https://portfolio-images-nathan-ramsdell.s3.us-east-2.amazonaws.com/images/bubble.png" alt="Large Bubble"
+                    width={220}
+                    height={220}
+                    />
+                </div>
+                <div className="medium-bubble">
+                <Image src="https://portfolio-images-nathan-ramsdell.s3.us-east-2.amazonaws.com/images/bubble.png" alt="Large Bubble"
+                    width={86}
+                    height={86}
+                    />
+                </div>
+                <div className="small-bubble">
+                <Image src="https://portfolio-images-nathan-ramsdell.s3.us-east-2.amazonaws.com/images/bubble.png" alt="Large Bubble"
+                    width={48}
+                    height={48}
+                    />
                 </div>
             </div>
             
@@ -17,18 +35,21 @@ function Hero() {
             <div className="relative text-center">
                     <Image src="https://portfolio-images-nathan-ramsdell.s3.us-east-2.amazonaws.com/images/portfolio-hero.png" alt="Profile picture of author"
                     width={380}
-                    height={557}/>
+                    height={557}
+                    
+                    />
             
-                
-                    <Image src="https://portfolio-images-nathan-ramsdell.s3.us-east-2.amazonaws.com/images/large-hero-dots.png" alt="dot background" className="absolute top-[10%] "
+                    <div className="big-dots">
+                    <Image src="https://portfolio-images-nathan-ramsdell.s3.us-east-2.amazonaws.com/images/large-hero-dots.png" alt="dot background" 
                     width={132}
-                    height={116} />
-                
-                
+                    height={116} 
+                    />
+                    </div>
+                    <div className="small-dots">
                     <Image src="https://portfolio-images-nathan-ramsdell.s3.us-east-2.amazonaws.com/images/small-hero-dots.png" alt="dot background"
                     width={84}
                     height={68} />
-                
+                    </div>
             </div>
         </div>
         </div>

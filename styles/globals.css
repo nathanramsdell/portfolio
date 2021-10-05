@@ -203,3 +203,33 @@ body {
 .section-margin-bottom{
   margin-bottom: 100px
 }
+.big-dots {
+  position: absolute !important;
+  bottom: 0px !important;
+  left: 80px;
+  z-index: -1;
+}
+.small-dots{
+  position: absolute;
+  top: 200px;
+  right: 125px;
+  z-index: -2;
+}
+.large-bubble{
+  position: absolute;
+  bottom: -125px;
+  left: -50px;
+  z-index: -1;
+}
+.medium-bubble{
+  position: absolute;
+  bottom: -20px;
+  right: 0px;
+  z-index: -1;
+}
+.small-bubble{
+  position: absolute;
+  top: -125px;
+  right: 200px;
+  z-index: -1;
+}

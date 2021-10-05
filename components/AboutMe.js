@@ -20,7 +20,7 @@ function AboutMe() {
                         objectFit="cover"/>
                     </div>
                     <div>
-                        <h4>Nathan Ramsdell</h4>
+                        <h4 className="text-lg font-bold">Nathan Ramsdell</h4>
                     </div>
                     <div className="flex justify-center text-gray-400 mt-4 ">
                         <a href="#" className="mx-1 hover:text-gray-300">
