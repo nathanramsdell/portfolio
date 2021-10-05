@@ -1,0 +1,193 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f0f4fb;
+  font-family: Oxygen, sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.4px;
+}
+
+.service-card{
+  background-color: #fff;
+  display: flex;
+  padding: 30px 14px;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 0 30px 40px 0 rgb(145 150 203 / 20%);
+  text-align: center; 
+}
+
+.recent-work-img{
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.project-wrapper{
+  position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+    min-height: 300px;
+    padding: 30px 14px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+.overlay {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+}
+
+.testimonial-card{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 24px 30px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: 0 30px 40px 0 rgb(145 150 203 / 20%);
+}
+.testimonial-details {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.small-avatar{
+  width: 64px;
+  height: 64px;
+  border-radius: 100%;
+  background-image: url(https://uploads-ssl.webflow.com/612c9818426e80489554701c/613e361b6c60bfe81739fb5a_avatar.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.avatar-details {
+  margin-left: 20px;
+}
+.quote {
+  color: #5f6a8f;
+  font-style: italic;
+}
+.accordian-bx{
+  width: 100%;
+  max-width: 890px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 30px;
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: 0 30px 40px 0 rgb(145 150 203 / 20%);
+}
+.accordian{
+  width: 100%;
+}
+.accordian-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #37446f;
+}
+.plus-icon {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 18px;
+  height: 18px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.vertical-line {
+  width: 2px;
+  height: 14px;
+  border-radius: 4px;
+  background-color: #9ca8c9;
+}
+.horizontal-line {
+  position: absolute;
+  width: 14px;
+  height: 2px;
+  border-radius: 4px;
+  background-color: #9ca8c9;
+}
+.accordian-header{
+  color: #252b3a;
+}
+.accordian-text .text {
+  position: relative;
+  z-index: 100;
+  color: #5f6a8f;
+  line-height: 26px;
+}
+
+.contact-form-container{
+  background-color: #252b3a;
+}
+
+.project-wrapper:hover h4{
+  z-index: 2;
+}
