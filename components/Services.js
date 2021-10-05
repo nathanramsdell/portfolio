@@ -6,7 +6,7 @@ import { FaWrench } from 'react-icons/fa';
 
 function Services() {
     return (
-        <div className="container mx-auto">
+        <div className=" mx-auto">
             {/* Top Text */}
             <div className="text-center">
                 <h2 className="font-bold text-3xl pb-5">Services</h2>

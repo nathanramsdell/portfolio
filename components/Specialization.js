@@ -1,6 +1,6 @@
 function Specialization() {
     return (
-        <div className="container mx-auto">
+        <div className=" mx-auto">
             <div className="text-center">
                 <h2 className="font-bold text-3xl pb-5">Testimonials</h2>
             </div>

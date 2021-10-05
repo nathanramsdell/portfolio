@@ -3,7 +3,7 @@ import { FaFacebookF, FaTwitter, FaDribbble, FaLinkedin} from 'react-icons/fa';
 
 function AboutMe() {
     return ( 
-        <div className="container mx-auto">       
+        <div className=" mx-auto about-me">       
             <div className="grid grid-cols-2 pb-12 ">
                 {/* Left Seciton */}
                 <div className="place-self-center">
@@ -15,8 +15,8 @@ function AboutMe() {
                 <div className="text-center">
                     <div className="">
                         <Image src="https://portfolio-images-nathan-ramsdell.s3.us-east-2.amazonaws.com/images/about-me-profile.png" alt="Profile picture of author" className="rounded-full ring-4 ring-white ring-offset-0"
-                        width={200}
-                        height={200}
+                        width={250}
+                        height={250}
                         objectFit="cover"/>
                     </div>
                     <div>
@@ -24,16 +24,16 @@ function AboutMe() {
                     </div>
                     <div className="flex justify-center text-gray-400 mt-4 ">
                         <a href="#" className="mx-1 hover:text-gray-300">
-                            <FaFacebookF className="text-[1.5rem]"/>
+                            <FaFacebookF className="text-[2.5rem]"/>
                         </a>
                         <a href="#" className="mx-1 hover:text-gray-300">
-                            <FaTwitter  className="text-[1.5rem]"/>
+                            <FaTwitter  className="text-[2.5rem]"/>
                         </a>
                         <a href="#" className="mx-1 hover:text-gray-300">
-                            <FaDribbble className="text-[1.5rem]"/>
+                            <FaDribbble className="text-[2.5rem]"/>
                         </a>
-                        <a href="#" className="mx-1 hover:text-gray-300">
-                            <FaLinkedin className="text-[1.5rem]"/>
+                        <a href="https://www.linkedin.com/in/nathan-ramsdell/" className="mx-1 hover:text-gray-300">
+                            <FaLinkedin className="text-[2.5rem]"/>
                         </a>
                     </div>
                 </div>

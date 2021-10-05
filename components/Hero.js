@@ -1,11 +1,11 @@
 import Image from 'next/image'
 function Hero() {
     return (
-        <div class="container">
+        <div class="">
         <div className="grid grid-cols-2 ">
             {/* Left */}
             <div className="place-self-center">
-                <div className="w-[600px]">
+                <div className="">
                     <h1 className=" text-5xl font-bold">I'm Nathan, a <span className="text-purple-500">Digital</span><br></br>Product Designer</h1>
                     <p className="font-thin mt-3">My mission is to help your business grow through my conversion-focused branding, design, marketing, and communication expertise.</p>
                     <button className="py-2 px-6 bg-purple-500 text-white mt-4 rounded-full"><a href="#about">Discover my work</a></button>

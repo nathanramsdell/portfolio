@@ -13,11 +13,11 @@ function Tiles() {
     return (
 
         
-        <div className="contianer">
+        <div className="">
             <div className="text-center">
                 <h2 className="font-bold text-3xl pb-5">Recent Work</h2>
             </div>
-            <div className="grid lg:grid-cols-3  lg:grid-rows-2 gap-5 mx-auto text-white  w-10/12  ">
+            <div className="grid lg:grid-cols-3  lg:grid-rows-2 gap-5 mx-auto text-white  mt-8  ">
                 <div>
                     <a href="#" className="project-wrapper">
                         <div className="overlay" onMouseOver={changeBackground} onMouseLeave={originalOverlay}></div>

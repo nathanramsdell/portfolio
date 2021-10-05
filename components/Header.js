@@ -3,7 +3,7 @@ import React from 'react'
 function Header() {
     return (
 
-        <div class="flex w-10/12 mx-auto">
+        <div class="flex  mx-auto">
             {/* left side */}
             <div className="flex">
                 <h1>NaRa</h1>

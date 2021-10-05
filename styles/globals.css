@@ -5,6 +5,67 @@
 html {
   scroll-behavior: smooth;
 }
+.tab-content {
+  max-height: 0;
+  -webkit-transition: max-height .35s;
+  -o-transition: max-height .35s;
+  transition: max-height .35s;
+  }
+  /* :checked - resize to full height */
+  .tab input:checked ~ .tab-content {
+  max-height: 100vh;
+  }
+  /* Label formatting when open */
+  .tab input:checked + label{
+  /*@apply text-xl p-5 border-l-2 border-purple-500 bg-gray-100 text-indigo*/
+  font-size: 1.25rem; /*.text-xl*/
+  padding: 1.25rem; /*.p-5*/
+  border-left-width: 2px; /*.border-l-2*/
+  border-color: rgba(139, 92, 246); /*.border-indigo*/
+  background-color: #f8fafc; /*.bg-gray-100 */
+  color: rgba(139, 92, 246); /*.text-indigo*/
+  }
+  /* Icon */
+  .tab label::after {
+  float:right;
+  right: 0;
+  top: 0;
+  display: block;
+  width: 1.5em;
+  height: 1.5em;
+  line-height: 1.5;
+  font-size: 1.25rem;
+  text-align: center;
+  -webkit-transition: all .35s;
+  -o-transition: all .35s;
+  transition: all .35;
+  }
+  /* Icon formatting - closed */
+  .tab input[type=checkbox] + label::after {
+  content: "+";
+  font-weight:bold; /*.font-bold*/
+  border-width: 1px; /*.border*/
+  border-radius: 9999px; /*.rounded-full */
+  border-color: #b8c2cc; /*.border-grey*/
+  }
+  .tab input[type=radio] + label::after {
+  content: "\25BE";
+  font-weight:bold; /*.font-bold*/
+  border-width: 1px; /*.border*/
+  border-radius: 9999px; /*.rounded-full */
+  border-color: #b8c2cc; /*.border-grey*/
+  }
+  /* Icon formatting - open */
+  .tab input[type=checkbox]:checked + label::after {
+  transform: rotate(315deg);
+  background-color: rgba(139, 92, 246); /*.bg-indigo*/
+  color: #f8fafc; /*.text-grey-lightest*/
+  }
+  .tab input[type=radio]:checked + label::after {
+  transform: rotateX(180deg);
+  background-color: rgba(139, 92, 246); /*.bg-indigo*/
+  color: #f8fafc; /*.text-grey-lightest*/
+  }
 
 body {
   background-color: #f0f4fb;
@@ -13,7 +74,11 @@ body {
   line-height: 28px;
   letter-spacing: 0.4px;
 }
-
+.custom-container{
+  max-width: 1450px;
+  margin: auto;
+  padding: 0 20px;
+}
 .service-card{
   background-color: #fff;
   display: flex;
@@ -113,6 +178,9 @@ body {
   color: #5f6a8f;
   font-style: italic;
 }
+.about-me{
+  max-width: 890px;
+}
 .accordian-bx{
   width: 100%;
   max-width: 890px;
@@ -123,66 +191,7 @@ body {
   background-color: #fff;
   box-shadow: 0 30px 40px 0 rgb(145 150 203 / 20%);
 }
-.accordian{
-  width: 100%;
-}
-.accordian-container {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-  padding-right: 0px;
-  padding-left: 0px;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  color: #37446f;
-}
-.plus-icon {
-  position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 18px;
-  height: 18px;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-.vertical-line {
-  width: 2px;
-  height: 14px;
-  border-radius: 4px;
-  background-color: #9ca8c9;
-}
-.horizontal-line {
-  position: absolute;
-  width: 14px;
-  height: 2px;
-  border-radius: 4px;
-  background-color: #9ca8c9;
-}
-.accordian-header{
-  color: #252b3a;
-}
-.accordian-text .text {
-  position: relative;
-  z-index: 100;
-  color: #5f6a8f;
-  line-height: 26px;
-}
+
 
 .contact-form-container{
   background-color: #252b3a;
@@ -190,4 +199,7 @@ body {
 
 .project-wrapper:hover h4{
   z-index: 2;
+}
+.section-margin-bottom{
+  margin-bottom: 100px
 }

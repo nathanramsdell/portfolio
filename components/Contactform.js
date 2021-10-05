@@ -29,7 +29,7 @@ function Contactform() {
   };
     return (
             <div className="my-12">
-              <div className="contact-form-container w-9/12 mx-auto shadow-lg rounded-lg py-12">
+              <div className="contact-form-container mx-auto shadow-lg rounded-lg py-12">
                 <main>
                 <div>
                   <h1 className="text-3xl font-bold p-5 text-white">Contact Me to <span className="text-purple-500">Learn More.</span></h1>
