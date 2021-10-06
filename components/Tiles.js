@@ -2,16 +2,17 @@ import Image from "next/image"
 
 function Tiles() {
 
-    function changeBackground(e) {
-        e.target.style.opacity = '1';
-      }
-      function originalOverlay(e) {
-        e.target.style.opacity = '0';
-      }
-      function myFunction() {
-        var element = document.getElementById("project-wrapper");
-        element.classList.add("mystyle");
-      }
+    // function changeBackground(e) {
+    //     e.target.style.opacity = '1';
+    //   }
+    //   function originalOverlay(e) {
+    //     e.target.style.opacity = '0';
+    //   }
+  
+    
+
+  
+   
     
     return (
 
@@ -22,74 +23,81 @@ function Tiles() {
             </div>
             <div className="grid lg:grid-cols-3  lg:grid-rows-2 gap-5 mx-auto text-white  mt-8  ">
                 <div>
-                    <a href="#" className="project-wrapper" id="project-wrapper">
-                        <div className="overlay" onMouseOver={changeBackground} onMouseLeave={originalOverlay}></div>
+                    <a href="#" className="project-wrapper" id="project-wrapper"  class="project-wrapper yes">
+                        
                         <img src="https://portfolio-images-nathan-ramsdell.s3.us-east-2.amazonaws.com/images/service-img-1.jpeg" alt="lollipop" className="recent-work-img"></img>
-                        <h4 onMouseOver={myFunction} onMouseLeave={originalOverlay}>Lollipop Mobile App</h4>
-                        <p onMouseOver={changeBackground} onMouseLeave={originalOverlay}>App Design</p>
-                        <div id="overlayBtn" >
+                        <h4   className="current" >Lollipop Mobile App</h4>
+                        <p className="current" >App Design</p>
+                        <div id="overlayBtn" className="current" >
                             <div>See Project</div>
                         </div>
+                        <div className="overlay"></div>
                     </a>
                 </div>
 
                 <div>
-                    <a href="#" className="project-wrapper" id="project-wrapper">
-                        <div className="overlay" onMouseOver={changeBackground} onMouseLeave={originalOverlay} ></div>
+                    <a href="#" className="project-wrapper" >
+                        
                         <img src="https://portfolio-images-nathan-ramsdell.s3.us-east-2.amazonaws.com/images/service-img-2.jpeg" alt="lollipop" className="recent-work-img"></img>
-                        <h4 onMouseOver={myFunction}>Lollipop Mobile App</h4>
-                        <p>App Design</p>
-                        <div>
+                        <h4  className="current" >Lollipop Mobile App</h4>
+                        <p className="current" >App Design</p>
+                        <div className="current">
                             <div>See Project</div>
                         </div>
+                        <div className="overlay" ></div>
                     </a>
                 </div>
 
                 <div>
                     <a href="#" className="project-wrapper">
-                        <div className="overlay" onMouseOver={changeBackground} onMouseLeave={originalOverlay}></div>
+                        
                         <img src="https://portfolio-images-nathan-ramsdell.s3.us-east-2.amazonaws.com/images/service-image-3.jpeg" alt="lollipop" className="recent-work-img"></img>
-                        <h4>Lollipop Mobile App</h4>
-                        <p>App Design</p>
-                        <div>
+                        <h4 className="current">Lollipop Mobile App</h4>
+                        <p className="current">App Design</p>
+                        <div className="current border-purple-500">
                             <div>See Project</div>
                         </div>
+                        <div className="overlay" ></div>
                     </a>
                 </div>
 
                 <div>
                     <a href="#" className="project-wrapper">
-                        <div className="overlay" onMouseOver={changeBackground} onMouseLeave={originalOverlay}></div>
+                        
                         <img src="https://portfolio-images-nathan-ramsdell.s3.us-east-2.amazonaws.com/images/service-img-4.jpeg" alt="lollipop" className="recent-work-img"></img>
-                        <h4>Lollipop Mobile App</h4>
-                        <p>App Design</p>
-                        <div>
+                        <h4 className="current">Lollipop Mobile App</h4>
+                        <p className="current">App Design</p>
+                        <div className="current">
                             <div>See Project</div>
                         </div>
+                        <div className="overlay" ></div>
                     </a>
                 </div>
 
                 <div>
                     <a href="#" className="project-wrapper">
-                        <div className="overlay" onMouseOver={changeBackground} onMouseLeave={originalOverlay}></div>
+                        
                         <img src="https://portfolio-images-nathan-ramsdell.s3.us-east-2.amazonaws.com/images/service-img-5.jpeg" alt="lollipop" className="recent-work-img"></img>
-                        <h4>Lollipop Mobile App</h4>
-                        <p>App Design</p>
-                        <div>
+                        <h4 className="current">Lollipop Mobile App</h4>
+                        <p className="current">App Design</p>
+                        <div className="current">
                             <div>See Project</div>
                         </div>
+                        <div className="overlay" ></div>
                     </a>
                 </div>
 
                 <div>
                     <a href="#" className="project-wrapper text-white">
-                        <div className="overlay" onMouseOver={changeBackground} onMouseLeave={originalOverlay}></div>
+                        
                         <img src="https://portfolio-images-nathan-ramsdell.s3.us-east-2.amazonaws.com/images/service-img-6.jpeg" alt="lollipop" className="recent-work-img"></img>
-                        <h4>Lollipop Mobile App</h4>
-                        <p>App Design</p>
-                        <div>
+                        <h4 className="current">Lollipop Mobile App</h4>
+                        <p className="current">App Design</p>
+                        <div className="current">
                             <div>See Project</div>
                         </div>
+                        <div className="overlay" ></div>
+                        
                     </a>
                 </div>
             

@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 html {
   scroll-behavior: smooth;
 }
@@ -11,6 +13,7 @@ html {
   -o-transition: max-height .35s;
   transition: max-height .35s;
   }
+ 
   /* :checked - resize to full height */
   .tab input:checked ~ .tab-content {
   max-height: 100vh;
@@ -131,6 +134,13 @@ body {
   background-color: rgba(0, 0, 0, 0.7);
   opacity: 0;
 }
+.overlay:hover{
+  opacity: 1;
+}
+.current:hover ~ .overlay{
+  opacity: 1;
+}
+
 
 .testimonial-card{
   display: -webkit-box;
@@ -197,9 +207,11 @@ body {
   background-color: #252b3a;
 }
 
-.project-wrapper:hover h4{
+
+.project-wrapper:hover .current{
   z-index: 2;
 }
+
 .section-margin-bottom{
   margin-bottom: 100px
 }
