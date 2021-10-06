@@ -8,7 +8,10 @@ function Tiles() {
       function originalOverlay(e) {
         e.target.style.opacity = '0';
       }
-
+      function myFunction() {
+        var element = document.getElementById("project-wrapper");
+        element.classList.add("mystyle");
+      }
     
     return (
 
@@ -19,22 +22,22 @@ function Tiles() {
             </div>
             <div className="grid lg:grid-cols-3  lg:grid-rows-2 gap-5 mx-auto text-white  mt-8  ">
                 <div>
-                    <a href="#" className="project-wrapper">
+                    <a href="#" className="project-wrapper" id="project-wrapper">
                         <div className="overlay" onMouseOver={changeBackground} onMouseLeave={originalOverlay}></div>
                         <img src="https://portfolio-images-nathan-ramsdell.s3.us-east-2.amazonaws.com/images/service-img-1.jpeg" alt="lollipop" className="recent-work-img"></img>
-                        <h4 onMouseOver={changeBackground} onMouseLeave={originalOverlay}>Lollipop Mobile App</h4>
+                        <h4 onMouseOver={myFunction} onMouseLeave={originalOverlay}>Lollipop Mobile App</h4>
                         <p onMouseOver={changeBackground} onMouseLeave={originalOverlay}>App Design</p>
-                        <div>
+                        <div id="overlayBtn" >
                             <div>See Project</div>
                         </div>
                     </a>
                 </div>
 
                 <div>
-                    <a href="#" className="project-wrapper">
+                    <a href="#" className="project-wrapper" id="project-wrapper">
                         <div className="overlay" onMouseOver={changeBackground} onMouseLeave={originalOverlay} ></div>
                         <img src="https://portfolio-images-nathan-ramsdell.s3.us-east-2.amazonaws.com/images/service-img-2.jpeg" alt="lollipop" className="recent-work-img"></img>
-                        <h4>Lollipop Mobile App</h4>
+                        <h4 onMouseOver={myFunction}>Lollipop Mobile App</h4>
                         <p>App Design</p>
                         <div>
                             <div>See Project</div>
