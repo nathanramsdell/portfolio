@@ -29,13 +29,13 @@ function Contactform() {
   };
     return (
             <div className="my-12">
-              <div className="contact-form-container mx-auto shadow-lg rounded-lg py-12">
+              <div className="contact-form-container shadow-lg rounded-lg py-12">
                 <main>
                 <div>
-                  <h1 className="text-3xl font-bold p-5 text-white">Contact Me to <span className="text-purple-500">Learn More.</span></h1>
+                  <h1 className="text-3xl font-bold p-5 text-white">Contact Me to <span className="text-purple-500">Learn More!</span></h1>
                 </div>
-                  <div className="flex">
-                    <div className="w-6/12 p-5 ">
+                  <div className="flex flex-col md:flex-row">
+                    <div className="w-[100%] md:w-6/12 p-5 mx-auto md:mx-0 ">
                       <form  onSubmit={handleSubmit} className="flex flex-col">
                         {/* NAME */}
                         <div className="py-2">
@@ -82,7 +82,7 @@ function Contactform() {
                     </div>
                     
                     {/* Right Section of Contact form */}
-                    <div className="flex flex-col justify-center mx-auto ">
+                    <div className="flex flex-col justify-center mx-0 md:mx-auto ">
                       <div className="flex items-center space-x-2 p-4 mb-2">
                         <MdEmail className="text-purple-500 h-6 w-6 flex"/>
                         <p className="flex text-white text-xl">ramsdell.28@gmail.com</p>

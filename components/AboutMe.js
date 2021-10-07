@@ -4,7 +4,7 @@ import { FaFacebookF, FaTwitter, FaDribbble, FaLinkedin} from 'react-icons/fa';
 function AboutMe() {
     return ( 
         <div className=" mx-auto about-me">       
-            <div className="grid grid-cols-2 pb-12 ">
+            <div className="grid md:grid-cols-2 pb-12 ">
                 {/* Left Seciton */}
                 <div className="place-self-center">
                 <h2 className="font-bold text-xl">Hi, I'm a freelance product designer from London, UK</h2>
@@ -12,7 +12,7 @@ function AboutMe() {
                 <p className="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborumnumquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentiumoptio, eaque rerum!</p>
                 </div>
                 <div >
-                <div className="text-center">
+                <div className="text-center mt-5 md:mt-0">
                     <div className="">
                         <Image src="https://portfolio-images-nathan-ramsdell.s3.us-east-2.amazonaws.com/images/about-me-profile.png" alt="Profile picture of author" className="rounded-full ring-4 ring-white ring-offset-0"
                         width={250}
