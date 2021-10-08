@@ -227,7 +227,7 @@ function Skills() {
         name: "tabs2"
       }), /*#__PURE__*/jsx_runtime_.jsx("label", {
         className: "block p-5 leading-normal cursor-pointer",
-        for: "tab-single-one",
+        htmlfor: "tab-single-one",
         children: "What Languages Do I Like to Use?"
       }), /*#__PURE__*/jsx_runtime_.jsx("div", {
         className: "tab-content overflow-hidden border-l-2 bg-gray-100 border-purple-500 leading-normal",
@@ -245,7 +245,7 @@ function Skills() {
         name: "tabs2"
       }), /*#__PURE__*/jsx_runtime_.jsx("label", {
         className: "block p-5 leading-normal cursor-pointer",
-        for: "tab-single-two",
+        htmlfor: "tab-single-two",
         children: "What Experience Do I Have?"
       }), /*#__PURE__*/jsx_runtime_.jsx("div", {
         className: "tab-content overflow-hidden border-l-2 bg-gray-100 border-purple-500 leading-normal",
@@ -263,7 +263,7 @@ function Skills() {
         name: "tabs2"
       }), /*#__PURE__*/jsx_runtime_.jsx("label", {
         className: "block p-5 leading-normal cursor-pointer",
-        for: "tab-single-three",
+        htmlfor: "tab-single-three",
         children: "My Ideal Work Enviroment Would Be..."
       }), /*#__PURE__*/jsx_runtime_.jsx("div", {
         className: "tab-content overflow-hidden border-l-2 bg-gray-100 border-purple-500 leading-normal",
@@ -281,7 +281,7 @@ function Skills() {
         name: "tabs2"
       }), /*#__PURE__*/jsx_runtime_.jsx("label", {
         className: "block p-5 leading-normal cursor-pointer",
-        for: "tab-single-four",
+        htmlfor: "tab-single-four",
         children: "What Makes Me Stand Out?"
       }), /*#__PURE__*/jsx_runtime_.jsx("div", {
         className: "tab-content overflow-hidden border-l-2 bg-gray-100 border-purple-500 leading-normal",
