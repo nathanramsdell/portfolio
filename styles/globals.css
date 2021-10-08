@@ -92,7 +92,17 @@ body {
   box-shadow: 0 30px 40px 0 rgb(145 150 203 / 20%);
   text-align: center; 
 }
-
+.iframe-profile {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    pointer-events: none;
+}
+.iframe-about{
+  margin: auto;
+  height: 300px;
+  pointer-events: none;
+}
 .recent-work-img{
   position:absolute;
   width: 100%;

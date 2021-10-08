@@ -1,14 +1,18 @@
 import Image from 'next/image'
+
+
+
 function Hero() {
+
     return (
         <div class="relative">
         <div className="grid lg:grid-cols-2 ">
             {/* Left */}
             <div className="place-self-center relative">
                 <div className="">
-                    <h1 className=" text-5xl font-bold">I'm Nathan, a <span className="text-purple-500">Digital</span><br></br>Product Designer</h1>
-                    <p className="font-thin mt-3">My mission is to help your business grow through my conversion-focused branding, design, marketing, and communication expertise.</p>
-                    <button className="py-2 px-6 bg-purple-500 text-white mt-4 rounded-full"><a href="#about">Discover my work</a></button>
+                    <h1 className=" text-5xl font-bold">I'm Nathan, a <span className="text-purple-500">Front-End</span><br></br>Web Developer</h1>
+                    <p className="font-regular mt-3">My mission is to help your business grow by creating intuitive and interactive web applications.</p>
+                    <button className="py-2 px-6 bg-purple-500 text-white mt-4 rounded-full"><a href="#services">Learn More</a></button>
                 </div>
                 <div className="large-bubble">
                 <Image src="https://portfolio-images-nathan-ramsdell.s3.us-east-2.amazonaws.com/images/bubble.png" alt="Large Bubble"
@@ -33,11 +37,12 @@ function Hero() {
 
             {/* Right */}
             <div className="relative text-center">
-                    <Image src="https://portfolio-images-nathan-ramsdell.s3.us-east-2.amazonaws.com/images/portfolio-hero.png" alt="Profile picture of author"
-                    width={380}
-                    height={557}
+        
+                    <div>
+                    <iframe className="iframe-profile"src="https://embed.lottiefiles.com/animation/73810"></iframe>
+                    </div>
+
                     
-                    />
             
                     <div className="big-dots">
                     <Image src="https://portfolio-images-nathan-ramsdell.s3.us-east-2.amazonaws.com/images/large-hero-dots.png" alt="dot background" 
