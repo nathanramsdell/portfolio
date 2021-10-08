@@ -255,3 +255,21 @@ body {
   right: 200px;
   z-index: -1;
 }
+@media screen and (max-width: 1024px) {
+  .current{
+    z-index: 2;
+  }
+  .overlay{
+    opacity: 1;
+  }
+
+}
+
+
+@media screen and (max-width: 500px) {
+  .iframe-profile {
+    width: 300px !important;
+    height: 300px;
+
+}
+}

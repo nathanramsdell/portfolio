@@ -10,9 +10,9 @@ function Hero() {
             {/* Left */}
             <div className="place-self-center relative">
                 <div className="">
-                    <h1 className=" text-5xl font-bold">I'm Nathan, a <span className="text-purple-500">Front-End</span><br></br>Web Developer</h1>
+                    <h1 className=" text-2xl sm:text-5xl font-bold">I'm Nathan, a <span className="text-purple-500">Front-End</span><br></br>Web Developer</h1>
                     <p className="font-regular mt-3">My mission is to help your business grow by creating intuitive and interactive web applications.</p>
-                    <button className="py-2 px-6 bg-purple-500 text-white mt-4 rounded-full"><a href="#services">Learn More</a></button>
+                    <button className="py-2 px-6 bg-purple-500 text-white mt-4 rounded-full hover:bg-purple-600"><a href="#services">Learn More</a></button>
                 </div>
                 <div className="large-bubble">
                 <Image src="https://portfolio-images-nathan-ramsdell.s3.us-east-2.amazonaws.com/images/bubble.png" alt="Large Bubble"
