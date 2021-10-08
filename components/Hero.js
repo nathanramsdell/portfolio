@@ -1,5 +1,9 @@
 import Image from 'next/image'
+
+
+
 function Hero() {
+
     return (
         <div class="relative">
         <div className="grid lg:grid-cols-2 ">
@@ -33,11 +37,12 @@ function Hero() {
 
             {/* Right */}
             <div className="relative text-center">
-                    <Image src="https://portfolio-images-nathan-ramsdell.s3.us-east-2.amazonaws.com/images/portfolio-hero.png" alt="Profile picture of author"
-                    width={380}
-                    height={557}
+        
+                    <div>
+                    <iframe className="iframe-profile"src="https://embed.lottiefiles.com/animation/73810"></iframe>
+                    </div>
+
                     
-                    />
             
                     <div className="big-dots">
                     <Image src="https://portfolio-images-nathan-ramsdell.s3.us-east-2.amazonaws.com/images/large-hero-dots.png" alt="dot background" 

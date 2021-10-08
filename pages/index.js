@@ -14,6 +14,7 @@ export default function Home() {
     <div className="custom-container ">
     <Head>
       <title>NaRa</title>
+      <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     </Head>
     
     <div className="flex justify-center section-margin-bottom mt-[100px]">
