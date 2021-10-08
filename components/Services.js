@@ -15,22 +15,22 @@ function Services() {
                 <div className="px-5 py-7 service-card">
                 <FiPenTool className="bg-pink-100 rounded-full h-[64px] w-[64px] p-[16px] text-pink-500 text-[32px] " />
                     <p className="text-md font-bold mb-3">Collaboration</p>
-                    <p className="text-sm">I am experienced in working with both dedicated design teams and individuals to bring ideas to life!</p>
+                    <p className="text-sm">It's recognised that design is a critical factor in creating successful products. I have experiece working with both dedicated design teams and individuals to bring ideas to life!</p>
                 </div>
                 <div className="px-5 py-7 service-card" class="service-card">
                 <GoFileMedia className="text-purple-500 bg-purple-100 rounded-full h-[64px] w-[64px] p-[16px] text-[2rem]" />
                     <p className="text-md font-bold mb-3">Responsive Design</p>
-                    <p className="text-sm">I am a mobile first web developer. I enjoy working with Bootstrap or Tailwind to expedite the creation process.</p>
+                    <p className="text-sm">I am a mobile first web developer. I enjoy working with Bootstrap or Tailwind to expediate the creation proccess.</p>
                 </div>
                 <div className="px-5 py-7 service-card">
                     <HiLightBulb className="text-indigo-500 bg-indigo-100 rounded-full h-[64px] w-[64px] p-[16px] text-[2rem]"/>
                     <p className=" text-md font-bold mb-3">Performance</p>
-                    <p className="text-sm">I have a strong understanding of Google Core Metrics and working with web best practices to improve speed scores on professinal projects.</p>
+                    <p className="text-sm">I have a strong understanding of web best practices. Many professinal projects required working with Google Core Metrics to improve speed scores.</p>
                 </div>
                 <div className="px-5 py-7 service-card" >
                     <FaWrench className="text-blue-500 bg-blue-100 rounded-full h-[64px] w-[64px] p-[16px] text-[2rem]"/>
-                    <p className=" text-md font-bold mb-3">Organization</p>
-                    <p className="text-sm">My coding style prioritizes writing clean and easy-to-read code.</p>
+                    <p className=" text-md">UI/UX</p>
+                    <p className="text-sm">I have a strong understanding of web best practices. Many professinal projects required working with Google Core Metrics to improve speed scores.</p>
                 </div>
                 
                 

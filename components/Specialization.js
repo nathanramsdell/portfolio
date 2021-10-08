@@ -7,40 +7,26 @@ function Specialization() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6  mx-auto mt-8">
                 <div className="testimonial-card">
                     <p className="quote">
-                    "Coming Soon! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Volutpat consequat mauris nunc congue nisi vitae suscipit tellus mauris. Nibh mauris cursus mattis molestie a iaculis at erat pellentesque."
+                    " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras id tortor nec ex placerat maximus. In ultrices dui elit, nec feugiat metus malesuada et. Nunc aliquam quam posuere eros cursus placerat. "
                     </p>
                     <div className="testimonial-details">
                         <div className="small-avatar"></div>
                         <div className="avatar-details">
-                            <div className="text-md">John Doe</div>
-                            <div className="text-sm">Company</div>
+                            <div className="text-md">Ricardo Jones</div>
+                            <div className="text-sm">Facebook</div>
                         </div>
                     </div>
                 </div>
 
                 <div className="testimonial-card">
                     <p className="quote">
-                    "Coming Soon! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Volutpat consequat mauris nunc congue nisi vitae suscipit tellus mauris. Nibh mauris cursus mattis molestie a iaculis at erat pellentesque."
+                    " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras id tortor nec ex placerat maximus. In ultrices dui elit, nec feugiat metus malesuada et. Nunc aliquam quam posuere eros cursus placerat. "
                     </p>
                     <div className="testimonial-details">
                         <div className="small-avatar"></div>
                         <div className="avatar-details">
-                            <div className="text-md">John Doe</div>
-                            <div className="text-sm">Company</div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div className="testimonial-card">
-                    <p className="quote">
-                    "Coming Soon! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Volutpat consequat mauris nunc congue nisi vitae suscipit tellus mauris. Nibh mauris cursus mattis molestie a iaculis at erat pellentesque."
-                    </p>
-                    <div className="testimonial-details">
-                        <div className="small-avatar"></div>
-                        <div className="avatar-details">
-                            <div className="text-md">John Doe</div>
-                            <div className="text-sm">Company</div>
+                            <div className="text-md">Ricardo Jones</div>
+                            <div className="text-sm">Facebook</div>
                         </div>
                     </div>
                 </div>
@@ -48,13 +34,27 @@ function Specialization() {
 
                 <div className="testimonial-card">
                     <p className="quote">
-                    "Coming Soon! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Volutpat consequat mauris nunc congue nisi vitae suscipit tellus mauris. Nibh mauris cursus mattis molestie a iaculis at erat pellentesque."
+                    " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras id tortor nec ex placerat maximus. In ultrices dui elit, nec feugiat metus malesuada et. Nunc aliquam quam posuere eros cursus placerat. "
                     </p>
                     <div className="testimonial-details">
                         <div className="small-avatar"></div>
                         <div className="avatar-details">
-                            <div className="text-md">John Doe</div>
-                            <div className="text-sm">Company</div>
+                            <div className="text-md">Ricardo Jones</div>
+                            <div className="text-sm">Facebook</div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div className="testimonial-card">
+                    <p className="quote">
+                    " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras id tortor nec ex placerat maximus. In ultrices dui elit, nec feugiat metus malesuada et. Nunc aliquam quam posuere eros cursus placerat. "
+                    </p>
+                    <div className="testimonial-details">
+                        <div className="small-avatar"></div>
+                        <div className="avatar-details">
+                            <div className="text-md">Ricardo Jones</div>
+                            <div className="text-sm">Facebook</div>
                         </div>
                     </div>
                 </div>
