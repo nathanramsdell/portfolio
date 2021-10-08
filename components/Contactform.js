@@ -75,7 +75,7 @@ function Contactform() {
                           />
                         </div>
                         {/* button */}
-                        <div className="appearance-none block bg-purple-500 text-white rounded-full w-[200px] py-5 px-4 mb-3 text-center">
+                        <div className="appearance-none block bg-purple-500 hover:bg-purple-600 text-white rounded-full w-[200px] py-5 px-4 mb-3 text-center">
                           <button type="submit">Send Now</button>
                         </div>
                       </form>
@@ -85,11 +85,11 @@ function Contactform() {
                     <div className="flex flex-col justify-center mx-0 md:mx-auto ">
                       <div className="flex items-center space-x-2 p-4 mb-2">
                         <MdEmail className="text-purple-500 h-6 w-6 flex"/>
-                        <p className="flex text-white text-xl">ramsdell.28@gmail.com</p>
+                        <p className="flex text-white text-xl"><a href="mailto:ramsdell.28@gmail.com">ramsdell.28@gmail.com</a></p>
                       </div>
                       <div className="flex items-center space-x-2 p-4 mb-2">
                         <FaPhoneAlt className="text-purple-500 h-5 w-5 flex"/>
-                        <p className="flex text-white text-xl">414-416-5700</p>
+                        <p className="flex text-white text-xl"><a href="tel:+4144165700">414-416-5700</a></p>
                       </div>
                       <div className="flex items-center space-x-2 p-4">
                         <FaLocationArrow className="text-purple-500 h-5 w-5 flex"/>

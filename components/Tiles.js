@@ -23,7 +23,7 @@ function Tiles() {
             </div>
             <div className="grid lg:grid-cols-2  lg:grid-rows-2 gap-5 mx-auto text-white  mt-8  ">
                 <div>
-                    <a href="" className="project-wrapper shadow-md" id="project-wrapper"  class="project-wrapper yes">
+                    <a  className="project-wrapper shadow-md" id="project-wrapper"  class="project-wrapper yes">
                         
                         <img src="https://portfolio-images-nathan-ramsdell.s3.us-east-2.amazonaws.com/images/got-flow.png" alt="lollipop" className="recent-work-img"></img>
                         <h4  className="current font-bold text-xl text-purple-300 mb-3" >Professinal Site Builds</h4>
@@ -33,7 +33,7 @@ function Tiles() {
                 </div>
 
                 <div>
-                    <a href="" className="project-wrapper shadow-md" >
+                    <a  className="project-wrapper shadow-md" >
                         
                         <img src="https://portfolio-images-nathan-ramsdell.s3.us-east-2.amazonaws.com/images/portfolio-about.png" alt="lollipop" className="recent-work-img"></img>
                         <h4  className="current font-bold text-xl text-purple-300 mb-3 " >This Portfolio</h4>
@@ -43,7 +43,7 @@ function Tiles() {
                 </div>
 
                 <div>
-                    <a href="" className="project-wrapper shadow-md">
+                    <a  className="project-wrapper shadow-md">
                         
                         <img src="https://portfolio-images-nathan-ramsdell.s3.us-east-2.amazonaws.com/images/naterbook1.png" alt="lollipop" className="recent-work-img"></img>
                         <h4 className="current font-bold text-xl text-purple-300 mb-3">NaterBook</h4>
@@ -53,7 +53,7 @@ function Tiles() {
                 </div>
 
                 <div>
-                    <a href="" className="project-wrapper shadow-md">
+                    <a  className="project-wrapper shadow-md">
                         
                         <img src="https://portfolio-images-nathan-ramsdell.s3.us-east-2.amazonaws.com/images/service-img-4.jpeg" alt="lollipop" className="recent-work-img"></img>
                         <h4 className="current font-bold text-xl text-purple-300 mb-3">WordPress Plugins & Theme Development</h4>
